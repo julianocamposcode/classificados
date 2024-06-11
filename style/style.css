@@ -264,12 +264,12 @@ footer {
   }
 
   .bemvindo {
-    font-size: 14px;
     margin-bottom: 1rem;
   }
+
   .bemvindo p {
     font-size: 17px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .content {
