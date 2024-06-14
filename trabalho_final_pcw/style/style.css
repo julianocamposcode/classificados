@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Rogan", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 .main::before {
   width: 10rem !important;
