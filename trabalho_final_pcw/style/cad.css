@@ -1,0 +1,194 @@
+.cad {
+  width: 80%;
+}
+
+.cd {
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+}
+
+.pai-form {
+  display: flex;
+  background-color: #f4f6f8f0;
+  padding: 3rem;
+  border-radius: 7px;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.div_img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back {
+  height: 100vh;
+}
+
+.imagem_anuncio {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.nome,
+.preco {
+  width: 27rem;
+  padding: 0.6rem;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+textarea {
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #ddd;
+  padding: 0.5rem;
+  transition: border-color 0.3s ease;
+}
+.nome:hover,
+.preco:hover,
+textarea:hover {
+  border-color: #949292;
+}
+
+.files {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.file-input-container {
+  position: relative;
+  width: 300px;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  width: 20rem;
+}
+
+.file-label:hover {
+  border-color: #aaa;
+}
+
+.file-button {
+  background: black;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.file-button:hover {
+  background: #333;
+}
+
+.file-name {
+  color: #333;
+  font-size: 10px;
+}
+
+.file-input:focus + .file-label {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.submit {
+  background: black;
+  color: #fff;
+  padding: 8px 12px;
+  width: 20rem;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background: #333;
+  color: white;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  background-color: #333 !important;
+  box-shadow: none !important;
+}
+
+body.swal2-toast-shown .swal2-container.swal2-top-end,
+body.swal2-toast-shown .swal2-container.swal2-top-right {
+  width: 24.7rem;
+}
+@media screen and (max-width: 600px) {
+  .cd {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .pai-form {
+    flex-direction: column;
+    gap: 10rem;
+    margin-bottom: 3rem;
+  }
+
+  .nome,
+  .preco {
+    width: 17rem;
+  }
+
+  .imagem_anuncio {
+    width: 100% !important;
+  }
+
+  .file-label {
+    width: 17rem;
+    font-size: 10.2px;
+  }
+  .file-input-container {
+    width: auto;
+  }
+
+  .submit {
+    width: 15rem;
+  }
+
+  .back {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pai-form {
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .imagem_anuncio {
+    width: 70%;
+  }
+}
