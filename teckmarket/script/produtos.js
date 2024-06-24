@@ -236,7 +236,7 @@ function carregarProdutos() {
             if (produtos.length == 0) {
                 let main = document.querySelector('.main')
                 let p = document.createElement('h1')
-                p.innerText = 'Nenhum anúncio Cadastrado...'
+                p.innerText = 'Nenhum anúncio cadastrado...'
                 p.classList = 'sem_anuncio'
                 main.appendChild(p)
                 ul.style.marginBlock = '5rem'
