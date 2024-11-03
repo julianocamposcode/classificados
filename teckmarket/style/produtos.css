@@ -68,6 +68,8 @@ body {
 }
 .img_produto_detalhe {
   width: 30rem;
+  height: 30rem;
+  object-fit: cover;
   border-radius: 10px;
   animation: animation-apple1 1s backwards;
 }
@@ -304,6 +306,11 @@ div:where(.swal2-container) h2:where(.swal2-title) {
   }
   .img_produto_detalhe {
     width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 10px;
+    animation: animation-apple1 1s backwards;
+    margin-top: 2rem;
   }
 
   .dados h1 {
